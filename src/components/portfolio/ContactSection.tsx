@@ -22,11 +22,11 @@ const ContactSection = () => {
                   <div className="p-3 bg-primary/10 rounded-lg">
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <p className="text-sm text-muted-foreground mb-1">Email</p>
                     <a
                       href="mailto:sagarchaudhari5545@gmail.com"
-                      className="text-lg font-medium hover:text-primary transition-colors"
+                      className="text-sm md:text-lg font-medium hover:text-primary transition-colors break-all"
                     >
                       sagarchaudhari5545@gmail.com
                     </a>
