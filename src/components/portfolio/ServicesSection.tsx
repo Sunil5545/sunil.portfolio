@@ -114,11 +114,12 @@ const ServicesSection = () => {
                     </ul>
 
                     <Button
-                      className={`w-full ${
+                      className={`w-full transition-all duration-300 ${
                         service.popular
                           ? "bg-gradient-to-r from-primary to-accent hover:opacity-90"
-                          : "bg-secondary hover:bg-secondary/80"
+                          : ""
                       }`}
+                      variant={service.popular ? "default" : "outline"}
                       size="lg"
                       asChild
                     >
