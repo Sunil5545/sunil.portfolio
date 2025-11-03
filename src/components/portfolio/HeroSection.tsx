@@ -49,16 +49,16 @@ const HeroSection = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12 max-w-3xl mx-auto">
-            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12 max-w-3xl mx-auto">
+            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:scale-105 animate-fade-up" style={{ animationDelay: '200ms' }}>
               <div className="text-3xl font-bold text-primary">4+ Years</div>
               <div className="text-muted-foreground">Experience</div>
             </div>
-            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
+            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:scale-105 animate-fade-up" style={{ animationDelay: '300ms' }}>
               <div className="text-3xl font-bold text-primary">650+ Hours</div>
               <div className="text-muted-foreground">Saved Annually</div>
             </div>
-            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
+            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-6 hover:border-primary/50 transition-all hover:scale-105 animate-fade-up" style={{ animationDelay: '400ms' }}>
               <div className="text-3xl font-bold text-primary">70%</div>
               <div className="text-muted-foreground">Test Coverage</div>
             </div>
