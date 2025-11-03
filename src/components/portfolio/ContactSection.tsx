@@ -58,7 +58,7 @@ const ContactSection = () => {
                   className="flex-1 border-primary text-primary hover:bg-primary/10"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/sunil-chaudhari" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/sunil-chaudhari-27b62b149" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn
                   </a>
@@ -69,7 +69,7 @@ const ContactSection = () => {
                   className="flex-1 border-primary text-primary hover:bg-primary/10"
                   asChild
                 >
-                  <a href="https://github.com/sunil-chaudhari" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Sunil5545" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-5 w-5" />
                     GitHub
                   </a>
